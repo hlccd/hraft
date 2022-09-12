@@ -2,7 +2,7 @@ package hraft
 
 import (
 	"encoding/json"
-	"hraft/protocol"
+	"github.com/hlccd/hraft/protocol"
 	"log"
 	"net"
 	"time"

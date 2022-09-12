@@ -1,7 +1,7 @@
 package hraft
 
 import (
-	"hraft/protocol"
+	"github.com/hlccd/hraft/protocol"
 	"log"
 	"math/rand"
 	"net"
