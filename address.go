@@ -6,7 +6,7 @@ import (
 )
 
 func getAddr(point int) string {
-	return "0.0.0.0:" + fmt.Sprintf("%d", point)
+	return ":" + fmt.Sprintf("%d", point)
 }
 
 // 将 getAddr 转化为 ip 为 senderAddr 的ip ,从而获取到对方的实际链接地址
